@@ -16,6 +16,7 @@
 .span {
     height: 100%;
     width: 100%;
+    line-height: 1.5;
     background-image: url("https://dl.dropbox.com/s/r2s8s2r17wi0xm6/flame.png?dl=0");
     background-position: 0 -1000px;
     -webkit-background-clip: text;
@@ -114,12 +115,24 @@ audio {
 @media screen and (max-width: 768px) {
 
     /* Adjust styles for smaller screens */
-    .red-text {
-        font-size: 36px;
+    .span {
+        font-size: 60px;
     }
 
     body {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .span{
+        font-size: 42px!important;
+    }
+}
+
+@media screen  and (max-width:457px) {
+    .container1{
+        margin-top: -30%;
     }
 }
 
